@@ -1,0 +1,599 @@
+h1,
+h2,
+h3,
+p{
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+ul{
+ margin-top: 0;
+ margin-bottom: 0;
+ padding-left: 0;
+ }
+
+img{
+ display: block;
+}
+
+button{
+ cursor: pointer;
+}
+
+body{
+    background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+        
+}
+
+.staff-container{
+ background-color: #F5F4FA;
+}
+
+/* <Закголовок хедера */
+
+.page-header{
+  border-bottom: 1px solid #ECECEC;
+}
+
+.page-header-container{
+    display: flex;
+    
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+.page-nav{
+    display: flex;
+        
+}
+
+.logo{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-lab{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+
+}
+
+.link{
+    display: block;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    padding: 32px 0;
+    
+}
+
+.link-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.link:hover,
+.link-item:hover,
+.link:focus,
+.link-item:focus{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+
+}
+
+.link-item-footer:hover,
+.link-item-footer:focus{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+        
+    margin-left: auto;
+    list-style: none;
+}
+
+.letter{
+    text-decoration: none;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.phone{
+    text-decoration: none;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.list-item{
+    width: 270px;
+    margin-left: 30px;
+}
+
+.list-item:first-child{
+    margin-left: 0;
+}
+
+.menu-items:not(:last-child){
+    margin-right: 50px;
+}
+
+/* основна з секціями */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+.container-work{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.container-staff{
+    display: flex;
+    flex-direction: column;
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.items-staff{
+    display: flex;
+    justify-content: center;
+ 
+    gap: 30px;
+    
+    list-style: none;
+
+}
+
+.main{
+    padding: 200px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    url("../images/mainimage.jpg");
+    background-size:cover;
+    background-color: #C4C4C4;
+    
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+
+
+.title{
+    width: 696px;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.button{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: none;
+   padding-left: 32px;
+   padding-right: 32px;
+   margin-top: 30px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   color: #FFFFFF;
+   background: #2196F3;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+
+.button:hover,
+.button:focus{
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+
+.subtitle{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.text{
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.dsr{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.items-work{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.work-list{
+    margin-left: 30px;
+}
+.work-list:first-child{
+    margin-left: 0;
+}
+
+.staff-border-box{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.staff-box{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.staff-name{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.staff-position{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.staff-social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.social-list{
+    list-style: none;
+
+}
+
+.social-items-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background: #FFFFFF;
+}
+
+.social-items-link:hover,
+.social-items-link:focus{
+    color: #FFFFFF;
+    background:#2196F3
+   
+}
+
+.items-company{
+    display: flex;
+    list-style: none;
+}
+
+.list-company{
+    border-radius: 0px 0px 4px 4px;
+    color: #AFB1B8;
+}
+
+.container-company{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Підвал */
+
+.logo-footer{
+        
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-lab-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-item-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 9px;
+
+}
+
+.footer{
+    height: 252px;
+    background: #2F303A;
+    padding: 60px 0;
+}
+
+.footer-logo{
+    display: flex;
+    
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
+
+.content{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}  
+
+.items-footer{
+    
+    text-decoration: none;
+    list-style: none;
+
+} 
+
+.link-footer{
+    margin-bottom: 9px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation{
+    color: #FFFFFF;
+}
+
+.social-items-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background: #2F303A;
+
+}
+
+.social-items-footer:hover,
+.social-items-footer:focus{
+    background: #2196F3;
+}
+
+.social-footer-items{
+    display: flex;
+    
+    gap: 10px;
+    
+    text-decoration: none;
+    list-style: none;
+}
+/* Портфоліо */
+.buttons{
+    
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    line-height: 1.63;
+    padding: 6px 22px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.items-buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 50px;
+    list-style: none;
+  
+}
+    
+.buttons:hover,
+.buttons:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+
+}
+.items-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 30px;
+    margin-left: auto;
+    padding-bottom: 94px;
+    list-style: none;
+}
+
+.text-dcr{
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    
+
+}
+
+.text-dcr-name{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+    letter-spacing: 0.03em;
+      
+}
+
+.work-container{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+}
+
+.items-text-border{
+    padding: 20px 24px 20px 24px;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-links{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    
+}
