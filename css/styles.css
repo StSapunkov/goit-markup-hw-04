@@ -139,8 +139,7 @@ body{
 
 .items{
     display: flex;
-    
-        
+            
     margin-left: auto;
     list-style: none;
 }
@@ -157,13 +156,13 @@ body{
 .letter{
     text-decoration: none;
     margin-right: 10px;
-    fill: currentColor;
+    
 }
 
 .phone{
     text-decoration: none;
     margin-right: 10px;
-    fill: currentColor;
+    
 }
 
 .list-item{
