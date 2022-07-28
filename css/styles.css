@@ -144,13 +144,19 @@ body{
     list-style: none;
 }
 
-.items-header{
+.items-header,
+.contakts{
     display: flex;
     align-items: center;
     
     margin-left: auto;
     list-style: none;
     
+}
+
+.contakts:hover,
+.contakts:focus{
+    color: #2196F3;
 }
 
 .letter{
@@ -418,7 +424,7 @@ body{
     max-width: 170px;
     max-height: 92px;
     
-    border: 1px solid #757575;
+    
     border-radius: 4px;
     color: #AFB1B8;
 }
@@ -546,6 +552,12 @@ body{
 }
 
 .motivation{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
@@ -629,7 +641,7 @@ body{
     
     gap: 30px;
     margin-left: auto;
-    padding-bottom: 94px;
+    
     list-style: none;
 }
 
